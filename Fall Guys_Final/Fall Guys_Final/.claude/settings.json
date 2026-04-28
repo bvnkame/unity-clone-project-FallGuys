@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/nambui/Documents/Workings/GameGuys/unity-clone-project-FallGuys/**)"
+    ]
+  }
+}

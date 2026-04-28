@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.endel.nativewebsocket": {
+      "version": "https://github.com/endel/NativeWebSocket.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ea014c9ae534d56111962d96f89f8a046e302dc9"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.11",
       "depth": 0,
@@ -214,6 +221,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "io.colyseus.sdk": {
+      "version": "https://github.com/colyseus/colyseus-unity-sdk.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "220c3e2b4b78795627e3a77952dcc33782dbfd14"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

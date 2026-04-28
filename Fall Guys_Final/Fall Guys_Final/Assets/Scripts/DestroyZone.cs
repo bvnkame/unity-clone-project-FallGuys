@@ -7,7 +7,7 @@ public class DestroyZone : MonoBehaviour
     public ParticleSystem bounce;
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.other.gameObject);
+        Destroy(collision.gameObject);
 
         bounce.Play();
         bounce.transform.position = transform.position;

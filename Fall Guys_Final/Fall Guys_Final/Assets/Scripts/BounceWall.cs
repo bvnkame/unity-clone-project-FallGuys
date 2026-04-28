@@ -23,7 +23,7 @@ public class BounceWall : MonoBehaviour
 
             Rigidbody otherRB = collision.rigidbody;
 
-            otherRB.velocity = new Vector3(0, 0, 0);
+            otherRB.linearVelocity = new Vector3(0, 0, 0);
 
             //otherRB.AddExplosionForce(bounceForce, collision.contacts[0].point, 3, 5);
             otherRB.AddForce(Vector3.back * bounceForce, ForceMode.Impulse);

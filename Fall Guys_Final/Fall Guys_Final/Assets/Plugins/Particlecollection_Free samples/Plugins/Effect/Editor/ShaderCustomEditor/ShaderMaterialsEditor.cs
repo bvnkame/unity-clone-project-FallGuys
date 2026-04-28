@@ -22,7 +22,7 @@ public class ShaderMaterialsEditor : ShaderGUI
 			materialEditor.ShaderProperty (property, property.displayName);
 
 
-            if (property.type == MaterialProperty.PropType.Texture)
+            if (property.propertyType == UnityEngine.Rendering.ShaderPropertyType.Texture)
             {
                 if (property.name.Equals("_CutTex"))
                 {
@@ -45,7 +45,7 @@ public class ShaderMaterialsEditor : ShaderGUI
          //   {
 
          //   }
-            else if (property.type == MaterialProperty.PropType.Range)
+            else if (property.propertyType == UnityEngine.Rendering.ShaderPropertyType.Range)
             {
 
 
@@ -101,7 +101,7 @@ public class ShaderMaterialsEditor : ShaderGUI
                 }
 
             }
-            else if (property.type == MaterialProperty.PropType.Float)            
+            else if (property.propertyType == UnityEngine.Rendering.ShaderPropertyType.Float)            
             {
                 if (property.name.Equals("_MainRotation")
                     && property.floatValue != 0.0f)
